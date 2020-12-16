@@ -3,20 +3,20 @@
 ## Requirements
 
 * Let's imagine we have a game two teams, each team have 5 players, every player have drain (level to measure player strength). Below given numbers in brackets represent drain of each players.
-* Team A [35, 100, 20, 50, 40]
-* Team B [35, 10, 30, 20, 90]
+  - Team A [35, 100, 20, 50, 40]
+  - Team B [35, 10, 30, 20, 90]
 
 * You need to assign team A player in a way where it exceed team B player’s drain. Even if one player loses the battle then team A will not win.
 * The solution for the above result will be
-* Team A [40, 20, 35, 50, 100]
-* Team B [35, 10, 30, 20, 90]
+  - Team A [40, 20, 35, 50, 100]
+  - Team B [35, 10, 30, 20, 90]
 
 * Input: should be from console command to collect all the players data comma separated. Example console command should promote
-* Enter A Teams players: 30, 100, 20, 50, 40
-* Enter B team players: 35, 10, 30, 20, 90
+  - Enter A Teams players: 30, 100, 20, 50, 40
+  - Enter B team players: 35, 10, 30, 20, 90
 
-* If A team can win than the output will be: Win
-* If A team lose than the output will be: Lose
+* If A team can win than the output will be: `Win`
+* If A team lose than the output will be: `Lose`
 
 
 ## Basic Expectations :
